@@ -44,7 +44,18 @@ Or you can load the "deliteful-Checkbox-build/layer" with a script tag, and with
 
 Then use the Checkbox widget with declarative instantiation add this to your html:
 ```
-<d-star-rating value="3"></d-star-rating>
+  <label>
+    <d-checkbox name="option1" checked="true"></d-checkbox>
+    Option 1
+  </label>
+  <label>
+    <d-checkbox name="option2"></d-checkbox>
+    Option 2
+  </label>
+  <label>
+    <d-checkbox disabled="true" name="option3"></d-checkbox>
+    Option 3
+  </label>
 ```
 See [`deliteful/Checkbox`](/deliteful/docs/master/Checkbox.md) for full details on how instantiate a Checkbox widget.
 
