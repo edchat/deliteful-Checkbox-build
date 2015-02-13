@@ -57,7 +57,7 @@ Then use the Checkbox widget with declarative instantiation add this to your htm
     Option 3
   </label>
 ```
-See [`deliteful/Checkbox`](/deliteful/docs/master/Checkbox.md) for full details on how instantiate a Checkbox widget.
+See [`deliteful/Checkbox`](https://github.com/ibm-js/deliteful/blob/master/docs/Checkbox.md) for full details on how instantiate a Checkbox widget.
 
 ## Licensing
 
