@@ -38,7 +38,7 @@ require(["deliteful-Checkbox-build/layer"], function() {
 });
 ```
 
-Or you can load the "deliteful-Checkbox-build/layer" with a script tag, and without the extra require for `"deliteful-Checkbox-build/layer"`
+Or you can load the "deliteful-Checkbox-build/layer" with a script tag, without the extra require for `"deliteful-Checkbox-build/layer"` like this: 
 ```
 <script src="bower_components/deliteful-Checkbox-build/layer.js"></script>
 ```
