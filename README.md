@@ -19,10 +19,11 @@ In the future (after it is published) it will be:
 
 ## How to use
 
-To load the minified layer you need to wrap your main `require` call with another `require`, requiring `"deliteful-Checkbox-build/layer"`. Then you should continue to
-refer to modules with `"deliteful/Checkbox"`.
+To load the minified layer you have two options, you can include the layer with a script tag, or you can wrap your main `require`
+call with another `require`, requiring `"deliteful-Checkbox-build/layer"`. Then you should continue to refer to modules
+with `"deliteful/Checkbox"`.
 
-For example, this code:
+For example, to wrap the main require with another require, this code:
 ```js
 require(["app/main", "deliteful/Checkbox"], function() {
 	...
@@ -42,7 +43,7 @@ Or you can load the "deliteful-Checkbox-build/layer" with a script tag, and with
 <script src="bower_components/deliteful-Checkbox-build/layer.js"></script>
 ```
 
-Then use the Checkbox widget with declarative instantiation add this to your html:
+Then to use the Checkbox widget with a declarative instantiation, add this to your html:
 ```
   <label>
     <d-checkbox name="option1" checked="true"></d-checkbox>
