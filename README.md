@@ -42,11 +42,11 @@ Or you can load the "deliteful-Checkbox-build/layer" with a script tag, and with
 <script src="bower_components/deliteful-Checkbox-build/layer.js"></script>
 ```
 
-Then use the StarRating widget with declarative instantiation:
+Then use the Checkbox widget with declarative instantiation add this to your html:
 ```
 <d-star-rating value="3"></d-star-rating>
 ```
-See [`deliteful/StarRating`](/deliteful/docs/master/StarRating.md) for full details on how instantiate a StarRating widget.
+See [`deliteful/Checkbox`](/deliteful/docs/master/Checkbox.md) for full details on how instantiate a Checkbox widget.
 
 ## Licensing
 
