@@ -19,8 +19,8 @@ In the future (after it is published) it will be:
 
 ## How to use
 
-To load the minified layer you have two options, you can include the layer with a script tag, or you can wrap your main `require`
-call with another `require`, requiring `"deliteful-Checkbox-build/layer"`. Then you should continue to refer to modules
+To load the minified layer and it's dependencies you have two options, you can include them with script tags, or you can wrap your main `require`
+call with another `require`, requiring `"delite-fullBuild/fullBuild", "deliteful-Checkbox-build/layer"`. Then you should continue to refer to modules
 with `"deliteful/Checkbox"`.
 
 For example, to wrap the main require with another require, this code:
@@ -31,15 +31,16 @@ require(["app/main", "deliteful/Checkbox"], function() {
 ```
 Becomes:
 ```js
-require(["deliteful-Checkbox-build/layer"], function() {
+require(["delite-fullBuild/fullBuild", "deliteful-Checkbox-build/layer"], function() {
 	require(["app/main", "deliteful/Checkbox"], function() {
 		...
 	});
 });
 ```
 
-Or you can load the "deliteful-Checkbox-build/layer" with a script tag, without the extra require for `"deliteful-Checkbox-build/layer"` like this: 
+Or you can load the "deliteful-Checkbox-build/layer" and the "delite-fullBuild/fullBuild" with script tags, without the extra require for `"deliteful-Checkbox-build/layer"` like this:
 ```
+<script src="bower_components/delite-fullBuild/fullBuild.js"></script>
 <script src="bower_components/deliteful-Checkbox-build/layer.js"></script>
 ```
 
